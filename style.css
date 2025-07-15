@@ -1,0 +1,40 @@
+
+h3 {
+        text-align: center;
+}
+.container {
+    border: solid 1px rgb(160, 154, 154);
+    height: 38vmin;
+    width: 40vmin;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(238, 236, 236);
+    margin: auto;
+}
+
+#inputValue {
+    height: 5vmin;
+    width: 32vmin;
+}
+.showans {
+    height: 10vmin;
+    width:35vmin;
+    margin: auto;
+}
+.showcalculation {
+    width: 25vmin;
+    padding: 10px;
+    margin-left: 45px;
+}
+
+.btn {
+    width: 7vmin;
+    height: 4vmin;
+    border-radius: 3px;
+    margin: 1px;
+    border-color: rgb(181, 177, 177);
+}
+/* 
+.box {
+    border: 1px solid gray;
+} */

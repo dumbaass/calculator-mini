@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+    <h3 id="name">Calculator ❤️</h3>
+    <div class="container">
+        <div class="showans">
+            <input type="text" id="inputValue" value="">
+        </div>
+        <div class="showcalculation">
+        <button class="btn" onclick="inputValue.value =''">AC</button>
+        <button class="btn" onclick="inputValue.value +='1'">1</button>
+        <button class="btn" onclick="inputValue.value +='2'">2</button>
+        <button class="btn" onclick="inputValue.value +='+'">+</button>
+        <button class="btn" onclick="inputValue.value +='3'">3</button>
+        <button class="btn" onclick="inputValue.value +='4'">4</button>
+        <button class="btn" onclick="inputValue.value +='-'">-</button>
+        <button class="btn" onclick="inputValue.value +='5'">5</button>
+        <button class="btn" onclick="inputValue.value +='6'">6</button>
+        <button class="btn" onclick="inputValue.value +='*'">*</button>
+        <button class="btn" onclick="inputValue.value +='7'">7</button>
+        <button class="btn" onclick="inputValue.value +='8'">8</button>
+        <button class="btn" onclick="inputValue.value +='/'">/</button>
+        <button class="btn" onclick="inputValue.value =eval(inputValue.value)" >=</button>
+        <button class="btn" onclick="inputValue.value +='9'">9</button>
+        <button class="btn" onclick="inputValue.value +='0'">0</button>
+        <button class="btn" onclick="inputValue.value +='.'">.</button>
+</div>
+    </div>
+</div>
+    <script src="logic.js"></script>
+</body>
+</html>
